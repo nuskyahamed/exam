@@ -1,0 +1,21 @@
+git init	*		
+git config --global user.name 'athas97'	 *
+git config --global user.email 'gmail'	 *
+touch login.html
+git add login.html
+git status
+git add . *
+git status
+git commit   `for multiple line msgs`
+	shift + i
+	type your msg
+	shift + :
+	type :wq
+git commit -m "asfsfsdfsdfsdf"  `for single line` *
+git branch
+git branch test
+git switch test
+git checkout test
+git remote add orgin https://github.com/raat97/intrnt.git  *
+git remote -v  *
+git push -f origin master  *
